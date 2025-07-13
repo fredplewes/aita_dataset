@@ -1,3 +1,5 @@
+> Note: This fork updates the dataset to work with DVC version 3.0.0 and above.
+
 # AITA Dataset
 [![DOI](https://zenodo.org/badge/240335515.svg)](https://zenodo.org/badge/latestdoi/240335515)
 
@@ -24,8 +26,8 @@ The dataset contained in `aita_clean.csv` has 9 features:
 
 To get this dataset, install DVC and run:
 
-`$ dvc get https://github.com/iterative/aita_dataset aita_clean.csv`
+`$ dvc get https://github.com/fredplewes/aita_dataset aita_clean.csv`
 
 or
 
-`$ dvc import https://github.com/iterative/aita_dataset aita_clean.csv` to also download the associated .dvc files for data set versioning. 
+`$ dvc import https://github.com/fredplewes/aita_dataset aita_clean.csv` to also download the associated .dvc files for data set versioning. 
