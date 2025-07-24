@@ -6,7 +6,7 @@ import pandas as pd
 import time
 
 first_epoch = 1370000000 # Right before the first post in 2012
-last_epoch = 1577836800 # January 1, 2020
+last_epoch = 1735689600 # January 1, 2025
 
 def getPushshiftData(after, before):
     url = 'https://api.pushshift.io/reddit/submission/search/?sort_type=created_utc&sort=asc&subreddit=amitheasshole&after='+ str(after) +"&before"+str(before)+"&size=1000"
